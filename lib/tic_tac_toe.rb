@@ -66,9 +66,9 @@ class TicTacToe
     end
   end
 
-def position_taken?(index)
-  !(@board[index].nil? || @board[index] == " ")
-end
+  def position_taken?(index)
+    !(@board[index].nil? || @board[index] == " ")
+  end
 
   WIN_COMBINATIONS = [
     [0,1,2],
